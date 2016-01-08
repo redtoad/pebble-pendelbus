@@ -1,7 +1,5 @@
 /**
  * Copyright (C) 2016
- * jambit GmbH
- *
  * Sebastian Rahlf <basti@redtoad.de>
  */
 
