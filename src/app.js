@@ -77,8 +77,7 @@ var UI = require('ui');
 var stops = [];
 path.forEach(function (station, no, list) {
   stops.push({
-    title: station.name,
-    icon: (no === 0) ? 'images/menu-icon.png' : null
+    title: station.name
   });
 });
 var menu = new UI.Menu({

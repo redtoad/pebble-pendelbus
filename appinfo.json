@@ -1,17 +1,15 @@
 {
     "appKeys": {},
     "capabilities": [
-        "location",
-        "configurable"
+        ""
     ],
     "companyName": "Sebastian Rahlf",
-    "longName": "Pendelbus",
+    "longName": "BMW Pendelbus",
     "projectType": "pebblejs",
     "resources": {
         "media": [
             {
                 "file": "images/menu_icon.png",
-                "menuIcon": true,
                 "name": "IMAGE_MENU_ICON",
                 "type": "bitmap"
             },
@@ -29,6 +27,12 @@
                 "file": "fonts/UbuntuMono-Regular.ttf",
                 "name": "MONO_FONT_14",
                 "type": "font"
+            },
+            {
+                "file": "images/logo.png",
+                "menuIcon": true,
+                "name": "IMAGES_LOGO_PNG",
+                "type": "bitmap"
             }
         ]
     },
@@ -40,7 +44,7 @@
     ],
     "uuid": "6eab3b9b-e99c-4acf-9fdb-08a901a9d5e9",
     "versionCode": 1,
-    "versionLabel": "1.0",
+    "versionLabel": "0.8",
     "watchapp": {
         "hiddenApp": false,
         "watchface": false
