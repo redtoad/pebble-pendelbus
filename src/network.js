@@ -126,3 +126,4 @@ Network.prototype.findPath = function findPath (from, to, time) {
 };
 
 module.exports = Network;
+  
