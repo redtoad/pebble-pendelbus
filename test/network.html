@@ -71,7 +71,9 @@
                     [14,  7, null]  // on foot
                 ]
             });
-            var path = network.findPath(4, 14);
+            var itzw = network.stations[14],
+                adt = network.stations[4];
+            var path = network.findPath(itzw, adt);
             console.log(path);
 
         </script>
